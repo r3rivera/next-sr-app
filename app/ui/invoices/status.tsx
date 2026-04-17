@@ -1,10 +1,10 @@
 import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
-import clsx from 'clsx';
+import { cn } from '@/app/lib/utils';
 
 export default function InvoiceStatus({ status }: { status: string }) {
   return (
     <span
-      className={clsx(
+      className={cn(
         'inline-flex items-center rounded-full px-2 py-1 text-xs',
         {
           'bg-gray-100 text-gray-500': status === 'pending',
