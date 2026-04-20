@@ -8,7 +8,7 @@ import {
   UserCircleIcon,
 } from '@heroicons/react/24/outline';
 import Link from 'next/link';
-import { Button } from '@/app/ui/button';
+import { PrimaryBtn } from '@/app/ui/components/buttons/primary-btn';
 
 export default function EditInvoiceForm({
   invoice,
@@ -116,7 +116,7 @@ export default function EditInvoiceForm({
         >
           Cancel
         </Link>
-        <Button type="submit">Edit Invoice</Button>
+        <PrimaryBtn type="submit">Edit Invoice</PrimaryBtn>
       </div>
     </form>
   );
