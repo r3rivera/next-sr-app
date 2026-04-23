@@ -2,9 +2,67 @@
 @plugin "@tailwindcss/forms";
 
 @theme {
-  --color-blue-400: #2589FE;
-  --color-blue-500: #0070F3;
-  --color-blue-600: #2F6FEB;
+  --color-yellow-050: #FFFBE5;
+  --color-yellow-100: #FFF7CC;
+  --color-yellow-200: #FFF099;
+  --color-yellow-300: #FFE866;
+  --color-yellow-400: #FFE033;
+  --color-yellow-500: #FFD900;
+  --color-yellow-600: #CCAD00;
+  --color-yellow-700: #998200;
+  --color-yellow-800: #665700;
+  --color-yellow-900: #332B00;
+  --color-light-gold-50: #fffbe5;
+  --color-light-gold-100: #fff7cc;
+  --color-light-gold-200: #fff099;
+  --color-light-gold-300: #ffe866;
+  --color-light-gold-400: #ffe033;
+  --color-light-gold-500: #ffd900;
+  --color-light-gold-600: #ccad00;
+  --color-light-gold-700: #998200;
+  --color-light-gold-800: #665700;
+  --color-light-gold-900: #332b00;
+  --color-light-gold-950: #241e00;
+
+  --color-vanilla-custard-50: #f7f9eb;
+  --color-vanilla-custard-100: #eff3d8;
+  --color-vanilla-custard-200: #dee7b1;
+  --color-vanilla-custard-300: #cedb8a;
+  --color-vanilla-custard-400: #bdcf63;
+  --color-vanilla-custard-500: #adc33c;
+  --color-vanilla-custard-600: #8a9c30;
+  --color-vanilla-custard-700: #687524;
+  --color-vanilla-custard-800: #454e18;
+  --color-vanilla-custard-900: #23270c;
+  --color-vanilla-custard-950: #181b08;
+
+  --color-tangerine-dream-50: #feeee7;
+  --color-tangerine-dream-100: #fcdccf;
+  --color-tangerine-dream-200: #f9ba9f;
+  --color-tangerine-dream-300: #f7976e;
+  --color-tangerine-dream-400: #f4753e;
+  --color-tangerine-dream-500: #f1520e;
+  --color-tangerine-dream-600: #c1420b;
+  --color-tangerine-dream-700: #913108;
+  --color-tangerine-dream-800: #602106;
+  --color-tangerine-dream-900: #301003;
+  --color-tangerine-dream-950: #220b02;
+
+  --color-light-blue-50: #edf6f8;
+  --color-light-blue-100: #daeef1;
+  --color-light-blue-200: #b5dde3;
+  --color-light-blue-300: #90ccd5;
+  --color-light-blue-400: #6bbbc7;
+  --color-light-blue-500: #46aab9;
+  --color-light-blue-600: #388894;
+  --color-light-blue-700: #2a666f;
+  --color-light-blue-800: #1c444a;
+  --color-light-blue-900: #0e2225;
+  --color-light-blue-950: #0a181a;
+
+
+
+
 
   --grid-template-columns-13: repeat(13, minmax(0, 1fr));
 
